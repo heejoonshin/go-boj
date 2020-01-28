@@ -137,7 +137,7 @@ func lca(x,y int)int{
 		return x
 	}
 	for i:=20; i>=0; i--{
-		if par[x][i] != par[y][i]{
+		if par[x][i] != par[y][i]{r
 			x = par[x][i]
 			y = par[y][i]
 		}
