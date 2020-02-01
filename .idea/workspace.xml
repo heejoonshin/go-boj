@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9513b4b-5c7d-46dd-b635-73df4670c23a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boj12844/solve.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boj12844faster/fasterversion.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boj5052/solve.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boj13510/solve.go" beforeDir="false" afterPath="$PROJECT_DIR$/boj13510/solve.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +50,7 @@
       <recent name="C:\Users\신희준\go\src\github.com\heejoonshin\go-boj" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build github.com/heejoonshin/go-boj/boj12844faster">
+  <component name="RunManager" selected="Go Build.go build github.com/heejoonshin/go-boj/boj5052">
     <configuration name="go build github.com/heejoonshin/go-boj/boj10999" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-boj" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -80,6 +78,15 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.com/heejoonshin/go-boj/boj5052" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-boj" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/boj5052/solve.go" />
+      <package value="github.com/heejoonshin/go-boj/boj5052" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build github.com/heejoonshin/go-boj/boj7469" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go-boj" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -89,22 +96,13 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build github.com/heejoonshin/go-boj/upperlower" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="go-boj" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/upperlower/solve.go" />
-      <package value="github.com/heejoonshin/go-boj/upperlower" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build github.com/heejoonshin/go-boj/boj5052" />
         <item itemvalue="Go Build.go build github.com/heejoonshin/go-boj/boj12844faster" />
         <item itemvalue="Go Build.go build github.com/heejoonshin/go-boj/boj12844" />
         <item itemvalue="Go Build.go build github.com/heejoonshin/go-boj/boj10999" />
         <item itemvalue="Go Build.go build github.com/heejoonshin/go-boj/boj7469" />
-        <item itemvalue="Go Build.go build github.com/heejoonshin/go-boj/upperlower" />
       </list>
     </recent_temporary>
   </component>
@@ -128,46 +126,46 @@
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state x="864" y="134" key="CommitChangelistDialog2/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1579448833051" />
-    <state width="2455" height="360" key="GridCell.Tab.0.bottom" timestamp="1580214217025">
+    <state width="2455" height="360" key="GridCell.Tab.0.bottom" timestamp="1580529782131">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132932" />
-    <state width="2455" height="360" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217025" />
-    <state width="2455" height="360" key="GridCell.Tab.0.center" timestamp="1580214217024">
+    <state width="2455" height="360" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782131" />
+    <state width="2455" height="360" key="GridCell.Tab.0.center" timestamp="1580529782131">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132931" />
-    <state width="2455" height="360" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217024" />
-    <state width="2455" height="360" key="GridCell.Tab.0.left" timestamp="1580214217024">
+    <state width="2455" height="360" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782131" />
+    <state width="2455" height="360" key="GridCell.Tab.0.left" timestamp="1580529782131">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132931" />
-    <state width="2455" height="360" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217024" />
-    <state width="2455" height="360" key="GridCell.Tab.0.right" timestamp="1580214217025">
+    <state width="2455" height="360" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782131" />
+    <state width="2455" height="360" key="GridCell.Tab.0.right" timestamp="1580529782131">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132931" />
-    <state width="2455" height="360" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217025" />
-    <state width="2455" height="360" key="GridCell.Tab.1.bottom" timestamp="1580214217025">
+    <state width="2455" height="360" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782131" />
+    <state width="2455" height="360" key="GridCell.Tab.1.bottom" timestamp="1580529782132">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.1.bottom/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132932" />
-    <state width="2455" height="360" key="GridCell.Tab.1.bottom/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217025" />
-    <state width="2455" height="360" key="GridCell.Tab.1.center" timestamp="1580214217025">
+    <state width="2455" height="360" key="GridCell.Tab.1.bottom/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782132" />
+    <state width="2455" height="360" key="GridCell.Tab.1.center" timestamp="1580529782132">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.1.center/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132932" />
-    <state width="2455" height="360" key="GridCell.Tab.1.center/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217025" />
-    <state width="2455" height="360" key="GridCell.Tab.1.left" timestamp="1580214217025">
+    <state width="2455" height="360" key="GridCell.Tab.1.center/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782132" />
+    <state width="2455" height="360" key="GridCell.Tab.1.left" timestamp="1580529782131">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.1.left/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132932" />
-    <state width="2455" height="360" key="GridCell.Tab.1.left/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217025" />
-    <state width="2455" height="360" key="GridCell.Tab.1.right" timestamp="1580214217025">
+    <state width="2455" height="360" key="GridCell.Tab.1.left/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782131" />
+    <state width="2455" height="360" key="GridCell.Tab.1.right" timestamp="1580529782132">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
     <state width="1877" height="364" key="GridCell.Tab.1.right/-1920.0.1858.1080/0.0.2498.1080@-1920.0.1858.1080" timestamp="1579013132932" />
-    <state width="2455" height="360" key="GridCell.Tab.1.right/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580214217025" />
+    <state width="2455" height="360" key="GridCell.Tab.1.right/-1920.0.1858.1080/0.0.2498.1080@0.0.2498.1080" timestamp="1580529782132" />
     <state x="912" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1579418626004">
       <screen x="0" y="0" width="2498" height="1080" />
     </state>
@@ -205,6 +203,11 @@
           <url>file://$PROJECT_DIR$/boj12844faster/fasterversion.go</url>
           <line>86</line>
           <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/boj5052/solve.go</url>
+          <line>78</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
