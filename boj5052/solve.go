@@ -24,35 +24,35 @@ func initTrie() *trie{
 	}
 	return ret
 }
-func (t *trie)insert(key []byte)bool{
+func (t *trie)insert(key *[]byte,idx int)bool{
 	if t.terminal{
 		return false
 	}
-	if len(key) == 0{
+	if len(*key) == idx{
 		t.terminal = true
 		return true
 	}else{
-		k := "0"
-		next := int(key[0])-int(k[0])
+
+		next := int((*key)[idx])-int('0')
 		if t.children[next] == nil{
 			t.children[next] = initTrie()
 
 		}
-		return t.children[next].insert(key[1:])
+		return t.children[next].insert(key,idx+1)
 	}
 
 }
-func (t *trie)find(key []byte) bool{
+func (t *trie)find(key *[]byte,idx int) bool{
 
-	if t.terminal && len(key) == 0{
+	if t.terminal && len(*key) == idx{
 		return true
 	}
 	if t.terminal{
 		return false
 	}
-	k := "0"
-	next := int(key[0])-int(k[0])
-	return t.children[next].find(key[1:])
+
+	next := int((*key)[idx])-int('0')
+	return t.children[next].find(key,idx+1)
 
 }
 func main() {
@@ -66,17 +66,17 @@ func main() {
 		trie := initTrie()
 
 		scanf("%d\n",&N)
-		str := make([]string,N)
+		str := make([][]byte,N)
 		for i := 0; i < N; i++{
 			scanf("%s\n",&str[i])
-			bstr := []byte(str[i])
-			trie.insert(bstr)
+
+			trie.insert(&str[i],0)
 
 		}
 		ans := true
 		for i :=0; i < N; i++{
-			bstr := []byte(str[i])
-			if !trie.find(bstr){
+
+			if !trie.find(&str[i],0){
 				ans = false
 			}
 
